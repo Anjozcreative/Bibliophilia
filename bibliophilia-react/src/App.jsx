@@ -11,6 +11,7 @@ function App() {
       <Hero />
       <About />
       <OtherSection />
+      <div>this is a test</div>
     </>
   )
 }
