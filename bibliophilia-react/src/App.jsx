@@ -1,8 +1,8 @@
 import React from 'react'
 import './App.css'
-import Hero from './section/hero'
-import About from './section/about'
-import OtherSection from './section/otherSection'
+import Hero from './components/hero'
+import About from './components/about'
+import OtherSection from './components/otherSection'
 
 function App() {
 
@@ -11,7 +11,6 @@ function App() {
       <Hero />
       <About />
       <OtherSection />
-      <div>this is a test</div>
     </>
   )
 }
