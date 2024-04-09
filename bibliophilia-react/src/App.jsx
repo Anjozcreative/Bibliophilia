@@ -2,7 +2,7 @@ import React from 'react'
 import './App.css'
 import Hero from './components/hero'
 import About from './components/about'
-import OtherSection from './components/otherSection'
+import Features from './components/features'
 
 function App() {
 
@@ -10,7 +10,7 @@ function App() {
     <>
       <Hero />
       <About />
-      <OtherSection />
+      <Features />
     </>
   )
 }

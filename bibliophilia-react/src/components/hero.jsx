@@ -59,14 +59,14 @@ function Hero() {
 
 
             {/* this is the sponsor div */}
-            <div className="sponsor-div">
-                <img src={havard} alt="havard-bus" />
-                <img src={airtable} alt="airtable" />
-                <img src={airtable} alt="airtable" />
-                <img src={havard} alt="havard-bus" />
-                <img src={dribbble} alt="havard-bus" />
-                <img src={dribbble} alt="havard-bus" />
-                <img src={boom} alt="boom" />
+            <div className="bg-[#141d26] mt-2 w-full h-[43px] py-3 px-2 flex overflow-hidden items-center overflow-x-scroll scrollbar-none space-x-5 md:h-[135px] md:mt-4 md:justify-evenly lg:overscroll-x-none">
+                <img src={havard} alt="havard-bus" className="sponsor-logo" />
+                <img src={airtable} alt="airtable" className="sponsor-logo" />
+                <img src={airtable} alt="airtable" className="sponsor-logo" />
+                <img src={havard} alt="havard-bus" className="sponsor-logo" />
+                <img src={dribbble} alt="havard-bus" className="sponsor-logo" />
+                <img src={dribbble} alt="havard-bus" className="sponsor-logo" />
+                <img src={boom} alt="boom" className="sponsor-logo" />
 
             </div></>
     )
