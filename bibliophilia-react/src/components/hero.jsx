@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import desktop from "../assets/desktop.png";
 import havard from "../assets/havard.png";
 import airtable from "../assets/airtable.png";
@@ -8,6 +8,13 @@ import menu from "../assets/menu.png";
 import logo from "../assets/logo.png";
 
 function Hero() {
+
+    const {isOpen, setIsOpen} = useState(false);
+
+    const toggleNavbar = () => {
+        setIsOpen(!isOpen);
+    }
+
     return (
         <>
             <div className="w-auto h-[300px] md:h-[690px] bg-cover bg-center relative items-center justify-center flex">
