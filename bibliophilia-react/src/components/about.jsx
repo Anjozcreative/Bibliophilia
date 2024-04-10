@@ -13,7 +13,7 @@ function About(){
                     </h2>
                     <p className=" mt-4 font-semibold md: pr-12">Bibliophilia offers an immersive reading experience, connecting you with diverse books and fellow readers for captivating stories.</p>
                 </div>
-                    <div class=" flex flex-col p-4 bg-[#141D26] py-14 md:flex-row md:items-center md:pl-20">
+                    <div class=" flex flex-col p-4 bg-[#141D26] py-14 md:flex-row md:items-center md:pl-20 overscroll-x-none">
                     <div class="percent">
                         <h1 className="percentage">50%</h1>
                         <p className="sub-head">Discover New Books <br /> Every Week</p>
@@ -28,7 +28,7 @@ function About(){
             
         
             <div class="">
-            <img src={friends} alt="friends-reading" class="h-full object-cover"  />
+            <img src={friends} alt="friends-reading" class="h-full object-cover w-auto overscroll-x-none"  />
             </div>    
 
   </section>

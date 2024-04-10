@@ -17,53 +17,13 @@
   .sub-head {
     @apply font-body font-semibold leading-5 text-white my-7;
   }
-}
-
-
-*{
-  font-family: "Nunito", sans-serif;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-:root{
-  --primary-color:#5d38ce;
-}
-
-
-.sponsor-div img{
-  padding-right: 2.6rem;
-}
-/*feature section*/
-.key-features{
-  margin-top: 3rem;
-}
-.feature-div p {
-  text-align: center;
-  font-size: 18px;
-}
-
-.feature-div h1 {
-  text-align: center;
-  font-size: 32px;
-  font-weight: bold;
-}
-.plus{
-position: absolute;
-right: 8rem;
-}
-.sec-one{
-  display: flex;
-  padding-left: 4rem;
-}
-.hourglass{
-  background: #e9e6f9;
-  height: 28.4rem;
-  position: relative;
-  top: 4.5rem;
-  border-radius: 12px;
-}
-.hourglass img{
-  height: 287px;
-  translate: 0 10rem;
+  .img-bg {
+    @apply w-80 h-52 bg-[#E9E6F9] relative rounded m-2 md:w-[793px] md:h-[457px] md:rounded-xl;
+  }
+  .img-bgg {
+    @apply w-80 h-[287px] bg-[#E9E6F9] relative rounded m-2 lg:w-[584px] lg:h-[457px] lg:rounded-2xl;
+  }
+  .img-bggh {
+    @apply w-80 h-[287px] bg-[#E9E6F9] relative rounded m-2 lg:w-[375px] md:h-[457px] lg:rounded-2xl;
+  }
 }
