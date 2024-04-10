@@ -21,10 +21,10 @@ function Hero() {
                             src={logo} alt="logo" />
 
                         <div className="hidden md:flex lg:pl-64">
-                            <nav className="">
-                                <ul className="text-sm">
+                            <nav>
+                                <ul className="text-sm text-white flex space-x-7 items-center">
                                     <li><a href="#"
-                                        className=" active:underline font-mont">Home</a></li>
+                                        className=" font-mont">Home</a></li>
                                     <li><a href="#" className="font-mont">Contact Us</a></li>
                                 </ul>
                             </nav>
