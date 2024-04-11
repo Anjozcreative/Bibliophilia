@@ -1,5 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:wght@300;500;600;700;800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:wght@300;500;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:wght@300;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:wght@300;500;600;700;800&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -9,13 +10,13 @@
     @apply w-16 h-4 mx-2 md:w-32 md:h-9;
   }
   .percentage {
-    @apply font-body font-bold text-5xl text-white leading-10
+    @apply text-5xl font-bold leading-10 text-white font-body;
   }
   .percent {
     @apply text-left;
   }
   .sub-head {
-    @apply font-body font-semibold leading-5 text-white my-7;
+    @apply font-semibold leading-5 text-white font-body my-7;
   }
   .img-bg {
     @apply w-80 h-52 bg-[#E9E6F9] relative rounded m-2 md:w-[793px] md:h-[457px] md:rounded-xl;

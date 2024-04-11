@@ -2,7 +2,7 @@
 const Community = () => {
   return (
     <div className="bg-white font-[sans-serif] ">
-      <div className="container mx-auto md:px-8  flex-col items-center justify-center md:flex hidden">
+      <div className="container flex-col items-center justify-center hidden mx-auto md:px-8 md:flex">
         <div>
           <img src="../../src/assets/community1.png" alt="" />
         </div>
@@ -19,7 +19,7 @@ const Community = () => {
             for literature
           </p>
           <button
-            className="mt-4 font-semibold btn btn-lg bg-[#5D38CE] text-[16px] text-[#FFFFFE]
+            className="mt-4 font-semibold btn btn-lg bg-[#5D38CE] hover:bg-purple-400 hover:text-black text-[16px] text-[#FFFFFE]
 leading-6 border-none"
           >
             Get Started
@@ -28,13 +28,13 @@ leading-6 border-none"
       </div>
 
       {/* MOBILE VIEW */}
-      <div className="container mx-auto   px-4 flex-col items-center justify-center  flex sm:hidden">
+      <div className="container flex flex-col items-center justify-center px-4 mx-auto sm:hidden">
         <div>
           <img src="../../src/assets/mobile community1.png" alt="" />
         </div>
 
         <div
-          className="   rounded shadow-md   flex-col flex justify-center items-center text-white  py-4 px-4 space-y-2 w-full"
+          className="flex flex-col items-center justify-center w-full px-4 py-4 space-y-2 text-white rounded shadow-md "
           style={{
             backgroundImage: 'url("../../src/assets/mobile community2.png")',
           }}
