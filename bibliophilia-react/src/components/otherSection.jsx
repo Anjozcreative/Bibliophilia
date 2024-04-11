@@ -1,4 +1,4 @@
-import React from "react"
+
 import Group from "../assets/Group.png"
 import girlReading from "../assets/girlReading.png"
 import hourglass from "../assets/hourglass.png"
