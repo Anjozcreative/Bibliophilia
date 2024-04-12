@@ -1,11 +1,23 @@
 import googleIcon from "../../assets/google.png";
+
+import AuthPic from "../../assets/AuthPic.png";
 const SignUp = () => {
- 
- 
-  
   return (
     <>
-    <div className="justify-start w-full py-4 sm:px-6">
+      {/* Container Div*/}
+      <div className="font-[sans-serif] text-[#333]">
+        <div className="flex flex-col items-center justify-center ">
+          <div className="grid md:grid-cols-2 items-start gap-4  sm:w-[65%] w-full   rounded-md sm:my-5 sm:px-0 px-4">
+            {/* image */}
+
+            <img
+              src={AuthPic}
+              className="hidden object-contain w-full h-full sm:block"
+              alt="login-image"
+            />
+
+            {/* SIGN UP FORM */}
+            <div className="justify-start w-full py-4 sm:px-6">
               <form>
                 <div className="flex-col items-start justify-start">
                   <h3 className="text-3xl font-extrabold sm:text-2xl">
@@ -151,6 +163,16 @@ const SignUp = () => {
                 </div>
               </form>
             </div>
+
+
+
+
+
+
+            
+          </div>
+        </div>
+      </div>
     </>
   );
 };
