@@ -1,3 +1,4 @@
+// Link using react router dom
 import googleIcon from "../../assets/google.png";
 
 import AuthPic from "../../assets/AuthPic.png";
