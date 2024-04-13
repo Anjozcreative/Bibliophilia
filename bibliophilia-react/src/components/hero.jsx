@@ -8,6 +8,7 @@ import logo from "../assets/logo.png";
 import airtableMobile from "../assets/airtable mobile.png";
 import dribbleMobile from "../assets/dribble mobile.png";
 import havardMobile from "../assets/havard mobile.png";
+import { Link } from "react-router-dom";
 import { useState } from "react";
 
 function Hero() {
@@ -39,13 +40,19 @@ function Hero() {
             </div>
 
             <div className="hidden space-x-2 md:flex">
+              
+              <Link to={"/login"}>
               <button className="h-[56px] w-[175.41px] items-center bg-[#5D38CE] text-white font-semibold rounded-lg focus:outline-none font-mont">
                 Sign In
               </button>
-
+              </Link>
+             
+              <Link to={"/signup"}>
               <button className="h-[56px] w-[175.41px] items-center text-white font-semibold rounded-lg focus:outline-none border font-mont">
-                Sign In
+                Sign Up
               </button>
+              </Link>
+              
             </div>
 
             <img
