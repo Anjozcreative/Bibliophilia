@@ -12,13 +12,16 @@ import cluster from '../assets/cluster.png'
 
 function bookShowcase() {
   return (
-    <div className="showcase">
-      <Books src={cluster}/>
-      <h2>Book Showcase</h2>
-      <p>Discover a variety of high quality books</p>
-      <input type="button" value="Explore More" />
-    <div className=" grid grid-cols-2 lg:grid-cols-3">
-      <div>
+    <div className="showcase relative bg-[#EEF2FC]">
+      <Books src={cluster} className="absolute right-5 top-12 flex"/>
+      <div className="items-center justify-center text-center">
+      <h1 className="font-body font-bold text-xl md:text-4xl leading-7 text-center pb-2">Book Showcase</h1>
+      <p className="text-center pb-2">Discover a variety of high quality books</p>
+      <button className="pb-2">Get Started</button>
+      </div>
+      
+    <div className=" grid grid-cols-2 lg:grid-cols-3 ml-16 mr-12 pb-9">
+      <div >
       <Books src={book1}
       title="Lorem Ipsum"/>
       </div>
