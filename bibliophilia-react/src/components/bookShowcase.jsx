@@ -13,13 +13,17 @@ import cluster from '../assets/cluster.png'
 function bookShowcase() {
   return (
     <div className="showcase relative bg-[#EEF2FC]">
-      <Books src={cluster} className="absolute right-5 top-12 flex"/>
-      <div className="items-center justify-center text-center">
-      <h1 className="font-body font-bold text-xl md:text-4xl leading-7 text-center pb-2">Book Showcase</h1>
-      <p className="text-center pb-2">Discover a variety of high quality books</p>
-      <button className="pb-2">Get Started</button>
+      <div className="flex">
+        <div className="lg:pl-[18rem] pt-3"><Books src={cluster} className="absolute flex"/></div> 
+      <div className="items-center justify-center items-center justify-center text-center">
+      <h1 className="font-body font-bold text-2xl md:text-4xl leading-7 lg:ml-[13rem] ml-[7rem] mt-[3rem] pb-4">Book Showcase</h1>
+      <p className="text-center pb-5 lg:ml-[13rem] ml-[6rem]">Discover a variety of high quality books</p>
+      <button className="mb-[2rem] lg:ml-[13rem] ml-[6rem] h-[56px] w-[175.41px] items-center bg-[#141D26] text-white  rounded-lg focus:outline-none font-mont">Explore More</button>
       </div>
+      </div>
+     
       
+
     <div className=" grid grid-cols-2 lg:grid-cols-3 ml-16 mr-12 pb-9">
       <div >
       <Books src={book1}
