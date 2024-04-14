@@ -7,7 +7,7 @@ const Footer = () => {
         <img src="../../src/assets/Footer Arrow.png" alt="" />
       </div>
 
-      <div className="md:flex justify-between hidden ">
+      <div className="justify-between hidden md:flex ">
         <div className="flex-col space-y-2">
           <div>
             <h1 className="font-bold text-[40px] leading-[44px] text-[#FFFFFF] ">
@@ -59,10 +59,10 @@ const Footer = () => {
 
       {/* MOBILE  VIEW*/}
       <div>
-        <div className="flex justify-center items-center   absolute sm:hidden top-[-34px] sm:left-[11.5rem] left-[9.5rem]">
+        <div className="flex justify-center items-center   absolute sm:hidden top-[-34px] sm:left-[11.5rem] left-[10rem]">
           <img src="../../src/assets/Footer Arrow Mobile.png" alt="" />
         </div>
-        <div className="flex flex-col  sm:hidden space-y-8 md:mt-0 mt-4">
+        <div className="flex flex-col mt-4 space-y-8 sm:hidden md:mt-0">
           <div className="flex-col space-y-2">
             <div>
               <h1 className="font-[700] text-[24px] leading-[26px] text-[#FFFFFF] ">
@@ -90,7 +90,7 @@ const Footer = () => {
         </div>
 
         <div className=" p-6   bg-[#363F47] rounded-lg items-center mt-24 mb-5 sm:hidden space-y-8">
-          <div className="flex space-x-4 justify-start">
+          <div className="flex justify-start space-x-4">
             <div className="bg-[#5D38CE] rounded-full flex items-center justify-center p-2">
               <img src="../../src/assets/facebook desktop.png" alt="" />
             </div>

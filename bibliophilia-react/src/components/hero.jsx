@@ -8,6 +8,7 @@ import logo from "../assets/logo.png";
 import airtableMobile from "../assets/airtable mobile.png";
 import dribbleMobile from "../assets/dribble mobile.png";
 import havardMobile from "../assets/havard mobile.png";
+import boomMobile from "../assets/Boom mobile.png";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 
@@ -85,7 +86,7 @@ function Hero() {
       </div>
 
       {/* this is the sponsor div */}
-      <div className="flex md:gap-10 gap-5 md:p-10 p-5 mt-5 bg-[#141D26] sponsor-div  ">
+      <div className="flex md:gap-10 gap-4 md:p-10 p-5 mt-5 bg-[#141D26] sponsor-div items-center justify-center  ">
         <img src={havard} alt="havard-bus" className="hidden md:flex"/>
         <img src={airtable} alt="airtable" className="hidden md:flex"/>
         <img src={airtable} alt="airtable" className="hidden md:flex"/>
@@ -100,6 +101,7 @@ function Hero() {
         <img src={havardMobile} alt="havard" className="flex md:hidden"/>
         <img src={dribbleMobile} alt="dribble" className="flex md:hidden"/>
         <img src={dribbleMobile} alt="dribble" className="flex md:hidden"/>
+        <img src={boomMobile} alt="dribble" className="flex md:hidden"/>
         
       </div>
 

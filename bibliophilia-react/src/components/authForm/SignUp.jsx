@@ -1,4 +1,4 @@
-// Link using react router dom
+// Link using
 import googleIcon from "../../assets/google.png";
 
 import AuthPic from "../../assets/AuthPic.png";
@@ -21,7 +21,7 @@ const SignUp = () => {
             <div className="justify-start w-full py-4 sm:px-6">
               <form>
                 <div className="flex-col items-start justify-start">
-                  <h3 className="text-3xl font-extrabold sm:text-2xl">
+                  <h3 className="text-xl font-extrabold sm:text-2xl">
                     Create your Account
                   </h3>
                   <div className="flex items-center justify-center gap-2 py-1 my-5 border rounded">

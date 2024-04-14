@@ -11,6 +11,7 @@ const Community = () => {
           className=" py-12 px-8 rounded-xl shadow-md md:w-[90%]  flex-col flex justify-center items-center text-white "
           style={{ backgroundImage: 'url("../../src/assets/community2.png")' }}
         >
+          
           <h2 className=" text-[32px] font-extrabold mb-4 leading-10">
             Join the bibliophilia Community
           </h2>
