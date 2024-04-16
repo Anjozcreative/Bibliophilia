@@ -2,7 +2,7 @@
 
 const Footer = () => {
   return (
-    <footer className="bg-[#141D26] py-12 md:px-[7.5rem] font-[sans-serif] rounded-tl-[2rem] rounded-tr-[2rem] relative md:mt-32 px-5 mt-20">
+    <footer className="bg-[#141D26] md:py-12 md:px-[7.5rem] font-[sans-serif] rounded-tl-[2rem] rounded-tr-[2rem] relative md:mt-32 px-5 mt-20 py-2">
       <div className="md:flex justify-center items-center md:top-[-50px] md:left-[39rem] absolute hidden ">
         <img src="../../src/assets/Footer Arrow.png" alt="" />
       </div>
@@ -59,10 +59,10 @@ const Footer = () => {
 
       {/* MOBILE  VIEW*/}
       <div>
-        <div className="flex justify-center items-center   absolute sm:hidden top-[-34px] sm:left-[11.5rem] left-[10rem]">
+        <div className="flex justify-center items-center   md:hidden relative bottom-10">
           <img src="../../src/assets/Footer Arrow Mobile.png" alt="" />
         </div>
-        <div className="flex flex-col mt-4 space-y-8 sm:hidden md:mt-0">
+        <div className="flex flex-col  space-y-8 sm:hidden md:mt-0">
           <div className="flex-col space-y-2">
             <div>
               <h1 className="font-[700] text-[24px] leading-[26px] text-[#FFFFFF] ">
