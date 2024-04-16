@@ -60,7 +60,7 @@ const Footer = () => {
           © 2023 Bibliophilia. All rights reserved.
         </div>
         <div>
-          <img src="../../src/assets/BIBLIOPHILIA Desktop.png" alt="" />
+          <img src={footerLogo} alt="" />
         </div>
       </div>
 
