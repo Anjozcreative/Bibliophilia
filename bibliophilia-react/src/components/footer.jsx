@@ -1,8 +1,8 @@
 // I CREATED THE MOBILE VIEW IN A SEPERATE DIV BELOW
 import facebook from "../../src/assets/facebook desktop.png";
-import twitter from "../../src/assets/twitter desktop.png";
-import instagram from "../../src/assets/instagram desktop.png";
-import linkedIn from "../../src/assets/linkedin desktop.png";
+import twitter from "../../src/assets/twitter Desktop.png";
+import instagram from "../../src/assets/instagram Desktop.png";
+import linkedIn from "../../src/assets/linkedin Desktop.png";
 import footerArrow1 from "../../src/assets/Footer Arrow.png";
 import footerArrow2 from "../../src/assets/Footer Arrow Mobile.png";
 
@@ -98,16 +98,16 @@ const Footer = () => {
         <div className=" p-6   bg-[#363F47] rounded-lg items-center md:mt-24 mb-5 sm:hidden space-y-8 mt-24">
           <div className="flex justify-start space-x-4">
             <div className="bg-[#5D38CE] rounded-full flex items-center justify-center p-2">
-              <img src="../../src/assets/facebook desktop.png" alt="" />
+              <img src={facebook} alt="" />
             </div>
             <div className="bg-[#5D38CE] rounded-full flex items-center justify-center p-2">
-              <img src="../../src/assets/twitter desktop.png" alt="" />
+              <img src={twitter} alt="" />
             </div>
             <div className="bg-[#5D38CE] rounded-full flex items-center justify-center p-2">
-              <img src="../../src/assets/instagram desktop.png" alt="" />
+              <img src={instagram} alt="" />
             </div>
             <div className="bg-[#5D38CE] rounded-full flex items-center justify-center p-2">
-              <img src="../../src/assets/linkedin desktop.png" alt="" />
+              <img src={linkedIn} alt="" />
             </div>
           </div>
           <div className="font-[400] text-[14px] leading-[22.4px] text-[#FFFFFF] flex justify-start">
