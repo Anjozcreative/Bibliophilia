@@ -59,9 +59,7 @@ leading-6 border-none"
           >
             <div className=" hero-overlay bg-opacity-60 rounded-[4px]"></div>
             <div className="text-center hero-content text-white flex flex-col py-5">
-              <h2
-                className=" font-extrabold text-[16px] flex items-center justify-center leading-5 text-[#FFFFFF] "
-              >
+              <h2 className=" font-extrabold text-[16px] flex items-center justify-center leading-5 text-[#FFFFFF] ">
                 Join the bibliophilia Community
               </h2>
               <p className=" leading-relaxed font-bold text-[8px]">
@@ -69,8 +67,8 @@ leading-6 border-none"
                 love for literature
               </p>
               <button
-                className=" font-[600] bg-[#5D38CE] btn btn-sm text-[5px] text-[#FFFFFE]
-leading-[7.31px] border-none"
+                className=" font-[600] bg-[#5D38CE]   text-[5px] text-[#FFFFFE]
+leading-[7.31px] border-none  rounded-[2.44px] w-[53.44px] h-[17.06px] flex items-center justify-center"
               >
                 Get Started
               </button>

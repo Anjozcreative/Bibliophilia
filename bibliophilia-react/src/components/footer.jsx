@@ -9,7 +9,7 @@ import footerLogo from "../../src/assets/BIBLIOPHILIA Desktop.png";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#141D26] md:py-8 md:px-[7.5rem] font-[sans-serif] rounded-tl-[2rem] rounded-tr-[2rem] relative md:mt-32 px-5 mt-20 py-2">
+    <footer className="bg-[#141D26] md:py-8 md:px-[7.5rem] font-[sans-serif] rounded-tl-[2rem] rounded-tr-[2rem] relative md:mt-32 px-5 mt-24 py-2 ">
       <div className="md:flex justify-center items-center relative bottom-20 hidden ">
         <img src={footerArrow1} alt="" />
       </div>
