@@ -18,9 +18,9 @@ const SignUp = () => {
             />
 
             {/* SIGN UP FORM */}
-            <div className="justify-start w-full py-4 sm:px-6">
+            <div className="justify-start w-full md:py-4 sm:px-6 py-10">
               <form>
-                <div className="flex-col items-start justify-start">
+                <div className="flex-col items-start justify-start ">
                   <h3 className="text-xl font-extrabold sm:text-2xl">
                     Create your Account
                   </h3>
@@ -107,7 +107,7 @@ const SignUp = () => {
                   </div>
                 </div>
 
-                <div className="flex items-start gap-2 mt-5 sm:space-x-16">
+                <div className="md:flex items-start gap-2 mt-5 sm:space-x-16  hidden">
                   <div className="flex-col items-center space-y-1">
                     <div className="flex items-center gap-1">
                       <input
@@ -159,7 +159,7 @@ const SignUp = () => {
                     type="button"
                     className="w-full shadow-xl py-2.5 px-4 text-sm font-semibold rounded text-white bg-purple-700 hover:bg-blue-700 focus:outline-none"
                   >
-                    Sign in
+                    Sign Up
                   </button>
                 </div>
               </form>

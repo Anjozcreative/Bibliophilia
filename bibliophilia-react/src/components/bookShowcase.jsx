@@ -37,7 +37,7 @@ function bookShowcase() {
         </div>
       </div>
 
-      <div className="grid grid-cols-2 ml-16 mr-12 lg:grid-cols-3 pb-9">
+      <div className="grid grid-cols-2 md:px-28 px-4  lg:grid-cols-3 pb-9">
         <div>
           <Books src={book1} title="Lorem Ipsum" />
         </div>

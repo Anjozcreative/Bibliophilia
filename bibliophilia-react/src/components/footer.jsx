@@ -89,7 +89,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className=" p-6   bg-[#363F47] rounded-lg items-center mt-24 mb-5 sm:hidden space-y-8">
+        <div className=" p-6   bg-[#363F47] rounded-lg items-center md:mt-24 mb-5 sm:hidden space-y-8 mt-24">
           <div className="flex justify-start space-x-4">
             <div className="bg-[#5D38CE] rounded-full flex items-center justify-center p-2">
               <img src="../../src/assets/facebook desktop.png" alt="" />

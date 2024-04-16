@@ -5,7 +5,7 @@ const Login = () => {
   return (
     <>
      {/* Container Div*/}
-     <div className="font-[sans-serif] text-[#333]">
+     <div className="font-[sans-serif] text-[#333] ">
         <div className="flex flex-col items-center justify-center ">
           <div className="grid md:grid-cols-2 items-start gap-4  sm:w-[65%] w-full   rounded-md sm:my-5 sm:px-0 px-4">
             {/* image */}
@@ -17,9 +17,9 @@ const Login = () => {
             />
              
              {/* LOGIN FORM */}
-             <div className="justify-start w-full py-4 md:min-h-screen sm:px-6 ">
+             <div className="justify-start w-full md:py-4 md:min-h-screen sm:px-6 py-20 px-2">
         <form>
-          <div className="flex-col items-start justify-start">
+          <div className="  flex-col items-start justify-start ">
             <h3 className="text-xl font-extrabold sm:text-2xl">
               Login to your Account
             </h3>

@@ -58,7 +58,7 @@ function Hero() {
 
             <img
               src={menu}
-              className="md:hidden"
+              className="md:hidden cursor-pointer"
               onClick={() => {
                 setOpen(true);
               }}
@@ -109,14 +109,14 @@ function Hero() {
       {open ? (
         <div className="fixed inset-0 px-4 w-full h-full z-[1000] before:fixed before:inset-0 before:w-full before:h-full before:bg-[rgba(0,0,0,0.5)] overflow-auto font-[sans-serif]"
       >
-          <div className="w-full max-w-lg bg-[#141D26] border text-white  shadow-lg rounded-md p-6 relative mx-auto my-8">
+          <div className="w-full max-w-lg bg-[#141D26] border text-white  shadow-lg rounded-md p-6 relative mx-auto my-8 border-gray-700">
             <div className="flex items-center text-black">
               <h3 className="flex-1 text-xl font-bold"></h3>
               <div
                 onClick={() => {
                   setOpen(false);
                 }}
-                className="text-2xl font-bold text-white"
+                className="text-2xl font-bold text-white cursor-pointer"
               >
                 X
               </div>
@@ -125,8 +125,12 @@ function Hero() {
             <li className="text-xl font-bold cursor-pointer">Home</li>
             <li className="text-xl font-bold cursor-pointer">Contact Us</li>
             <div className="flex gap-4">
+            <Link to={"/login"}>
             <button  className="btn btn-sm  text-white hover:bg-purple-500 bg-[#5D38CE] border-none cursor-pointer ">Login</button>
+            </Link>
+            <Link to={"/signup"}>
             <button className="btn btn-sm bg-[#5D38CE] text-white cursor-pointer hover:bg-purple-500 border-none">Sign Up</button>
+            </Link>
             </div>
            
            </ul>
