@@ -16,13 +16,16 @@ function App() {
   return (
     <>
     {/* <AuthForm/> */}
-      <Hero />
+    <div className='bg-white'>
+    <Hero />
       <About />
       <Features />
       <BookShowcase />
       <Testimonial/>
       <Community/>
       <Footer/>
+    </div>
+     
     </>
   )
 }
