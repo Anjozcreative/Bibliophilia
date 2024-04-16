@@ -43,7 +43,7 @@ leading-6 border-none"
 
       {/* MOBILE VIEW */}
       <div className=" bg-white font-[sans-serif]  md:hidden flex">
-        <div className="container flex-col items-center justify-center flex mx-auto px-6 md:hidden ">
+        <div className="container flex-col items-center justify-center flex mx-auto px-4 md:hidden ">
           <div>
             <img src="../../src/assets/mobile community1.png" alt="" />
           </div>
