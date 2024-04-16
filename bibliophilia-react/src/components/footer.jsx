@@ -5,6 +5,7 @@ import instagram from "../../src/assets/instagram Desktop.png";
 import linkedIn from "../../src/assets/linkedin Desktop.png";
 import footerArrow1 from "../../src/assets/Footer Arrow.png";
 import footerArrow2 from "../../src/assets/Footer Arrow Mobile.png";
+import footerLogo from "../../src/assets/BIBLIOPHILIA Desktop.png";
 
 const Footer = () => {
   return (
@@ -114,7 +115,7 @@ const Footer = () => {
             © 2023 Bibliophilia. All rights reserved.
           </div>
           <div className="flex justify-start">
-            <img src="../../src/assets/BIBLIOPHILIA Desktop.png" alt="" />
+            <img src={footerLogo} alt="" />
           </div>
         </div>
       </div>
