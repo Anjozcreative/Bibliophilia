@@ -1,10 +1,12 @@
 import desktop from "../assets/desktop.png";
+import desktop2 from "../assets/logo desktop.png";
+import desktop3 from "../assets/logo mobile.png";
 import havard from "../assets/havard.png";
 import airtable from "../assets/airtable.png";
 import dribbble from "../assets/dribbble.png";
 import boom from "../assets/boom.png";
 import menu from "../assets/menu.png";
-import logo from "../assets/logo.png";
+// import logo from "../assets/logo.png";
 import airtableMobile from "../assets/airtable mobile.png";
 import dribbleMobile from "../assets/dribble mobile.png";
 import havardMobile from "../assets/havard mobile.png";
@@ -21,18 +23,21 @@ function Hero() {
         <div className="absolute top-0 left-0 w-full h-full bg-[#141D26B2] justify-center items-center">
           {/*this is the nav bar */}
           <div className="flex items-center justify-between px-10 mt-2 md:px-0 md:justify-around md:mt-4">
-            <img className="w-auto " src={logo} alt="logo" />
+            <img className="w-auto md:block hidden " src={desktop2} alt="logo" />
+            <img className="w-auto block md:hidden" src={desktop3} alt="logo" />
 
             <div className="hidden md:flex lg:pl-64">
               <nav className="">
-                <ul className="text-sm">
+                <ul className="text-sm flex gap-8">
                   <li>
-                    <a href="#" className=" active:underline font-mont">
+                    <a href="#" className=" active:underline font-mont text-white text-[
+16px] leading-[24px] font-[600]">
                       Home
                     </a>
                   </li>
                   <li>
-                    <a href="#" className="font-mont">
+                    <a href="#" className="font-mont text-white text-[
+16px] leading-[24px] font-[600]">
                       Contact Us
                     </a>
                   </li>
