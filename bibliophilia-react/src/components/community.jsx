@@ -1,6 +1,8 @@
 // I CREATED THE MOBILE VIEW IN A SEPERATE DIV BELOW
 import backgroundImage from "../../src/assets/community2.png";
 import backgroundImage2 from "../../src/assets/mobile community2.png";
+import communityArrow from "../../src/assets/community1.png";
+import communityArrow2 from "../../src/assets/mobile community1.png";
 const Community = () => {
   return (
     <>
@@ -11,7 +13,7 @@ const Community = () => {
       >
         <div className="container flex-col items-center justify-center hidden mx-auto md:px-20 md:flex ">
           <div>
-            <img src="../../src/assets/community1.png" alt="" />
+            <img src={communityArrow} alt="" />
           </div>
 
           <div
@@ -45,7 +47,7 @@ leading-6 border-none"
       <div className=" bg-white font-[sans-serif]  md:hidden flex">
         <div className="container flex-col items-center justify-center flex mx-auto px-4 md:hidden ">
           <div>
-            <img src="../../src/assets/mobile community1.png" alt="" />
+            <img src={communityArrow2} alt="" />
           </div>
 
           <div
